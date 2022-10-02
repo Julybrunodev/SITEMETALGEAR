@@ -1,0 +1,268 @@
+
+body{
+    background-color: rgb(15, 15, 15);
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    height: 2050px;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+nav{
+font-weight: 800;
+background-color: rgb(12, 12, 12);
+overflow: hidden;
+position: fixed;
+width: 100%;
+top: 0%;
+font-family: 'Kanit', sans-serif;
+z-index: 2;
+}
+
+.linhamenu{
+    background-color: rgb(37, 36, 36);
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 50.5px;
+}
+
+nav .logo{
+    text-transform: uppercase;
+   user-select: none;
+    color: rgb(193, 196, 196);
+    display: block;
+    float: left;
+    padding: 14px 16px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+ background-color: transparent;
+    color: rgb(193, 196, 196);
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 0.4s;
+    
+}
+
+nav a:hover{
+    text-shadow: 0 0 6px rgb(58, 176, 255);
+    transition: 0.4s;
+    background-color:transparent;
+    color: rgb(69, 178, 252);
+}
+
+.videof{ 
+    position: absolute;
+    z-index: -100;
+    bottom: 100px;
+    left: 0px;
+    
+}
+
+.button
+{
+color: rgb(0, 0, 0);
+background-color: transparent;
+cursor: pointer;
+user-select: none;
+border: none;
+font-size: 30px;
+font-weight: 600;
+margin-left: auto;
+margin-right: auto;
+display: block;
+width: 8%;
+margin-top: 460px;
+transition: 0.8s;
+position: absolute;
+}
+
+.logo2
+{ 
+    
+    color: rgb(194, 203, 206);
+    top: 34%;
+   left: 31.3%;
+    font-size: 50px;
+    user-select: none;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+}
+
+.sublogo{
+    position: absolute;
+    color: rgb(194, 203, 206);
+    font: size 20px;
+    left: 34.0%;
+    top: 32%;
+    letter-spacing: 16px;
+    user-select: none;
+    text-transform: uppercase;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+.fundoover{
+background-color: rgba(0, 0, 0, 0.753);
+  bottom: 103px;
+   position: absolute;
+   width: 100%;
+   height: 1000px;
+   z-index: -1;
+
+}
+
+.realbutton::before,.realbutton::after
+{
+   
+font-size: 30px;
+font-family: 'Aldrich', sans-serif;
+content:'JOGUE AGORA' ;
+position: absolute;
+left: 43%;
+transition: 0.4s;
+top: 45.5%;
+color: rgb(57, 177, 224);
+text-shadow: 0 0 4px rgb(57, 177, 224);
+}
+
+.realbutton::before
+{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+}
+
+.realbutton:hover::before
+{
+    text-shadow: 0 0 6px rgb(146, 18, 13);
+    color: rgb(230, 36, 36);
+    transition: 0.4s;
+    transform: translate(10px,-0.3px);
+}
+
+.realbutton::after
+{
+    -webkit-clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+}
+
+.realbutton:hover::after
+{
+    text-shadow: 0 0 4px rgb(146, 18, 13);
+    color: rgb(231, 26, 26);
+    transition: 0.4s;
+    transform: translate(-8px,0.3px);
+}
+
+
+
+
+
+
+
+
+
+.imgk{
+   
+    left: 1170px;
+    position: absolute;
+    top: 700px;
+    opacity: 0.1;
+    z-index: -111;
+}
+
+
+.imgk2{
+    right: 1200px;
+    position: absolute;
+    top: 700px;
+    opacity: 0.3;
+    z-index: -111;
+    
+}
+
+.raidenpng{
+   cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    top: 815px;
+    left: 125px;
+   
+    transition-duration: 0.6s;
+    opacity: 0.9;
+    
+   
+    
+}
+
+.raidenpng:hover{
+
+    left: 200px;
+   transition-duration: 0.3s;
+   opacity: 1;
+   -webkit-filter: drop-shadow(-15px -10px 0px rgba(90, 207, 228, 0.5));
+    filter: drop-shadow(-15px -10px 0px rgba(118, 219, 233, 0.534));
+}
+
+.sampng{
+    
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    top: 815px;
+    right: 50px;
+    transition: 0.6s;
+    opacity: 0.8;
+}
+
+.samuel .sampng:hover{
+    right: 120px;
+   transition: 0.3s;
+   opacity: 1;
+   -webkit-filter: drop-shadow(15px 10px 0px rgba(255, 0, 0, 0.404));
+    filter: drop-shadow(15px 10px 0px rgba(255, 0, 0, 0.404));
+    
+}
+
+.rodape{
+    position: absolute;
+    top: 2022px;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 6px;
+    color: #3388a1;
+    background-color: rgb(29, 29, 29);
+    
+}
+
+.subrodape{
+    letter-spacing: 6px;
+    color: #b42a31;
+    padding-bottom: 10px;
+
+}
+
+.veja{
+    text-transform: uppercase;
+    position: absolute;
+    color: #a3a3a3;
+    font-family: 'Oswald', sans-serif;
+    top: 850px;
+    left: 44%;
+    font-size: 30px;
+    letter-spacing: 7px;
+}
